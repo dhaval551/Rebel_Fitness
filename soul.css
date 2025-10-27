@@ -1,0 +1,665 @@
+*
+{
+   margin: 0%;
+   padding: 0%;
+}
+
+body
+{
+      background-color: black;
+     
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: white; 
+}
+
+.my
+{
+    width: 1px ;
+    height: 20px;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: rgb(1, 1,14);
+    padding: 22px;
+    box-shadow: 0px 2px 6px 2px rgb(31, 30, 30);
+    color: white;
+    filter: drop-shadow(2px 4px 6px green);
+}
+
+
+nav ul li a
+{
+    margin-inline: 22px;
+    text-decoration: none;
+    color: white;
+}
+
+
+ul li
+{
+
+    list-style: none;
+}
+
+nav ul
+{
+    margin-right: 63px;
+    margin-top:6px ;
+
+}
+
+
+
+.logo
+{
+    font-size: 25px;
+    margin-left:33px ;
+    color: rgb(4, 180, 4);
+}
+
+
+
+
+
+
+
+
+
+ul li button
+{
+    width: 100px;
+    background-color: rgb(40, 180, 40);
+    border: none;
+    color: white;
+    font-size: 18px;
+
+}
+
+
+ul li button:hover
+{
+    border:  2px solid  white;
+     background-color: transparent;
+     color: rgb(15, 139, 15);
+     cursor: pointer;
+
+}
+
+
+ul li a:hover
+{
+    color: rgb(15, 139, 15);
+    border-bottom: 2px solid  rgb(15, 139, 15);
+
+}
+
+.select
+{
+    border: none;
+    box-sizing: none;
+    color: white;
+    background-color: rgb(1, 1,14);
+    cursor: pointer;
+    font-size: 17px;
+}
+
+/* main  */
+
+.home
+{
+    display: flex;
+    justify-content: center;
+}
+
+.home img
+{
+    width: 36%;
+    margin-top: 100px;
+    margin-left: -171px;
+    filter: drop-shadow(1px 1px 15px silver);
+
+}
+
+.home .hometext
+{
+    margin-top: 80px;
+    margin-left: 44px;
+
+}
+
+.hometext h1
+{
+    font-size : 54px;
+    color:rgb(15, 139, 15) ;
+}
+
+.hometext h3
+{
+    margin-top: 22px;
+    font-size: 22px;
+}
+
+
+.hometext p
+{
+    text-align:left;
+    margin-top: 22px;
+    color: silver;
+    align-items: center;
+}
+
+
+.hometext button
+{
+    margin-top: 22px;
+    font-size: 22px;
+    width: 140px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+.hometext button:hover
+{
+    border: 2px solid  white;
+    background-color: transparent;
+    color:rgb(15, 139, 15)  ;
+}
+
+
+.head
+{
+    text-align: center;
+    padding: 95px;
+}
+
+.head span
+{
+    color: rgb(15, 139, 15) ;
+    
+}
+
+
+.ourprogram
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.ourprogram .carda
+{     
+    width: 424px;
+    height: 430px;
+    padding: 4px;
+     margin-inline :22px; 
+    text-align: center;
+   
+}
+
+
+.ourprogram .carda img:hover
+{
+    width: 73%;
+    border: 2px solid green;
+    box-shadow: 3px 2px 5px green;
+    /* transition: 0.3s ease; */
+    border-radius: 5px;
+}
+
+.ourprogram .carda img
+{
+    object-fit: cover; 
+     object-position:cover;
+    
+}
+
+#heavy
+{
+    
+    margin-top: 59px;
+}
+.heavy
+{
+    /*  */
+    height: 396px;
+    width: 283px;
+  
+}
+
+/* #animation
+{     transform: translateX(0px);
+    transform: translateX(200px);
+    height: auto !important;
+    opacity: 1;
+    transition: 0.5s ease-out;
+} */
+
+
+
+
+
+
+
+/* plans */
+
+.ourplan
+{
+    display: flex;
+    justify-content: center;
+}
+
+.ourplan .card
+{
+
+     width: 330px;
+     height: 430px;
+     padding: 4px;
+     background-color: rgb(35, 34, 34);
+     text-align: center;
+     margin-inline: 22px;
+
+
+}
+
+.card i
+{
+    font-size: 22px;
+    margin-top: 22px;
+    color: orange;
+}
+
+.card h3
+{
+    margin-top: 22px;
+    color: green;
+}
+
+
+.card h1
+{
+    margin-top: 22px;
+    color: green;
+}
+
+
+.card p
+{
+    margin-top: 12px;
+    color: silver;
+}
+
+.card button
+{
+    margin-top: 22px;
+    width: 130px;
+    height: 33px;
+    background-color: orange;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+
+.card:hover
+{
+    transition: 0.7s ease;
+    width: 310px;
+    height: 440px;
+    background-color: black;
+    font-size: 19px;
+    cursor: pointer;
+ 
+}
+
+.card button:hover
+{
+    border: 2px solid white;
+    background-color: transparent;
+    color: green;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+    
+
+}
+
+/* blog */
+
+
+.ourblog
+{
+    display: flex;
+    justify-content: center;
+
+}
+
+.ourblog .blogcard
+{
+    width: 330px;
+    height: 400px;
+    margin-inline: 22px;
+    background-color: gray;
+    
+
+}
+
+.blogcard img
+{ 
+     width: 100%;
+}
+
+.photo
+{
+    height:  200px;
+    /* width: 0px; */
+}
+
+.blogcard p
+{
+    margin-top: 22px;
+}
+
+
+.blogtext a
+{
+    text-decoration: none;
+
+  
+  border: none;
+
+    width: 90px;
+    padding: 11px;
+    background-color:green;
+    color: white;
+    position: absolute;
+    margin-top: 22px;
+    cursor: pointer;
+}
+
+
+
+.blogtext
+{
+    margin-top: 11px;
+    margin-left: 11px;
+
+}
+
+  /* team */
+
+.teap
+{
+    width: 100px;
+    height: 100px;
+    padding: 28px 2%;
+    background-color: black;
+    
+   
+}
+
+.trainername
+{
+    text-align: center;
+    padding: 95px;
+}
+
+.trainername span
+{
+    color: rgb(15, 139, 15) ;
+    
+}
+
+.t_box
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+
+
+}
+
+
+.team .t_box
+{
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    display: flex;
+   
+
+     /* align-items: center; */
+    /* justify-content: space-around;  */
+   
+}
+
+
+.team .t_box .t_card img
+{
+    width: 100%;
+    height: 100%;
+    margin-left: 20px;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.team .t_box .t_card
+{
+    width: 275px;
+    height: 365px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 7px;
+}
+
+
+.team .t_box .t_card .t_tag
+{
+    width: 275px;
+    height: 365px;
+    background: #1d201d;
+    position: absolute;
+    margin-left: 19px;
+    top: 100%;
+    padding: 10px;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+
+
+.team .t_box .t_card:hover  .t_tag
+{
+ top: 0px;
+ 
+ border: 2px solid green;
+ box-shadow: 3px 2px 25px green;
+ /* cursor: inherit; */
+
+
+}
+
+
+
+
+ .name
+{
+   margin: 0px;
+   margin-left: 5px;
+   text-align:center;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:  #0be9d3eb;
+    /* border: 3px solid aliceblue; */
+    width: 220px;
+}
+
+.trainer{
+    color:silver;
+
+}
+
+.back 
+{
+    color: rgb(54, 163, 98);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+
+
+
+
+
+
+/* contect */
+
+.contectpage
+{
+
+    display: flex;
+    justify-content: center;
+}
+
+.contecttext
+{
+   margin-left: 33px; 
+  color: green;
+  margin-top: 124px;
+  font-size: 33px;
+}
+
+.contectpage img
+{
+    width: 51%;
+    margin-left: -1px;
+}
+
+.contectus
+{
+    text-align: center;
+    margin-top: 22px;
+
+
+}
+
+.contectus input
+{
+    width: 350px;
+    padding: 6px;
+    height: 33px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    margin-top: 18px;
+}
+
+.contectus button
+{
+    width: 360px;
+    height: 45px;
+   
+    color: white;
+    border: none;
+    font-size: 22px;
+    background-color:green;
+    margin-top: 11px;
+
+    border-radius: 2px;
+}
+
+
+
+/* footer */
+
+.footer
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 33px;
+    padding: 22px;
+    width: 1520px;
+    box-shadow:  0px 2px 4px 4px gray;
+}
+
+.footer .footertext
+{
+    margin-inline:60px;
+    padding: 22px;
+
+}
+
+
+
+.footertext p
+{
+    margin-top: 11px;
+    color: silver;
+}
+
+
+
+/* gellery */
+.right
+{
+    margin-left: 740px;
+    margin-top: -28px;
+    padding-bottom: 20px;
+}
+
+
+
+
+.first
+{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.first img
+{
+width:200px;
+height: 300px;
+border: 2px solid #3cff0036;
+border-radius: 13px;
+box-shadow:  4px 7px 7px 0px #00000042;
+cursor: pointer;
+margin: 10px;
+object-fit: cover;
+object-position: center;
+transition: 400ms;
+}
+
+.first img:hover
+{
+    /* filter: grayscale(1); */
+    transform: scale(1.05);
+    box-shadow: 2px 2px 5px rgb(4, 180, 4) ;
+
+}
+
+
+.dance
+{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#yoga
+{
+    color: black;
+}
